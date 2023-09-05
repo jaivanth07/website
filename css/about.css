@@ -1,0 +1,17 @@
+/* Add these styles to your about.css file to make text fit within the box */
+.centered-box {
+     background-color: rgba(4, 13, 18, 0.9); /* Slightly transparent dark background */
+     padding: 40px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+     text-align: center;
+ }
+ 
+ .centered-box p {
+     font-size: 18px; /* Slightly smaller font size */
+     line-height: 1.5; /* Adequate line spacing */
+     color: #fff; /* White text color */
+     max-width: 800px; /* Limit text width to prevent overfitting */
+     margin: 0 auto; /* Center-align text within the box */
+ }
+ 

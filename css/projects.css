@@ -1,0 +1,33 @@
+/* Add these styles to your projects.css file to make the content match the dark theme */
+.projects {
+     background-color: #040d12; /* Dark background color */
+     padding: 40px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+     text-align: center;
+ }
+ 
+ .projects h1 {
+     font-size: 36px;
+     margin-bottom: 20px;
+     color: #fff; /* White text color */
+ }
+ 
+ .project-box {
+     background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+     padding: 20px;
+     border-radius: 10px;
+ }
+ 
+ .project-box h2 {
+     font-size: 24px;
+     margin-bottom: 10px;
+     color: #fff; /* White text color */
+ }
+ 
+ .project-box p {
+     font-size: 18px;
+     line-height: 1.6;
+     color: #fff; /* White text color */
+ }
+ 

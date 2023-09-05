@@ -1,0 +1,168 @@
+/* Add these styles to your home.css file */
+.full-width-article {
+     background-color: #040d12;
+     color: #fff;
+     padding: 40px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+ }
+ 
+ .full-width-article h1 {
+     font-size: 36px;
+     margin-bottom: 20px;
+     text-align: left; /* Left-align the heading */
+ }
+ 
+ .full-width-article p {
+     font-size: 18px;
+     line-height: 1.6;
+     text-align: left; /* Left-align the paragraphs */
+ }
+ 
+ .full-width-article ul {
+     list-style-type: none;
+     margin: 20px 0;
+     padding: 0;
+ }
+ 
+ .full-width-article li {
+     font-size: 16px;
+     margin-bottom: 10px;
+     text-align: left; /* Left-align the list items */
+ }
+ 
+ .learn-more-button {
+     background-color: #183d5c;
+     color: #fff;
+     border: none;
+     padding: 15px 30px;
+     font-size: 20px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .learn-more-button:hover {
+     background-color: #122b42;
+ }
+
+ 
+ /* Add these styles to your home.css file */
+.full-width-article {
+     background-color: #040d12;
+     color: #fff;
+     padding: 40px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+     transform: translateX(-100%); /* Initially off-screen to the left */
+     animation: slideIn 0.5s forwards; /* Animation to slide in */
+ }
+ 
+ @keyframes slideIn {
+     0% {
+         transform: translateX(-100%);
+     }
+     100% {
+         transform: translateX(0);
+     }
+ }
+ 
+ .full-width-article h1 {
+     font-size: 36px;
+     margin-bottom: 20px;
+     text-align: left; /* Left-align the heading */
+ }
+ 
+ .full-width-article p {
+     font-size: 18px;
+     line-height: 1.6;
+     text-align: left; /* Left-align the paragraphs */
+ }
+ 
+ .full-width-article ul {
+     list-style-type: none;
+     margin: 20px 0;
+     padding: 0;
+ }
+ 
+ .full-width-article li {
+     font-size: 16px;
+     margin-bottom: 10px;
+     text-align: left; /* Left-align the list items */
+ }
+ 
+ .learn-more-button {
+     background-color: #183d5c;
+     color: #fff;
+     border: none;
+     padding: 15px 30px;
+     font-size: 20px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .learn-more-button:hover {
+     background-color: #122b42;
+ }
+
+ 
+ /* Add these styles to your home.css file */
+.styled-article {
+     background-color: #040d12;
+     color: #fff;
+     padding: 40px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+     transform: scale(1); /* Initial size */
+     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for pop effect */
+ }
+ 
+ .styled-article:hover {
+     transform: scale(1.02); /* Scale up on hover */
+     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6); /* Enhance box-shadow on hover */
+ }
+ 
+ .styled-article h1 {
+     font-size: 36px;
+     margin-bottom: 20px;
+ }
+ 
+ .styled-article h2 {
+     font-size: 24px;
+     margin-bottom: 15px;
+ }
+ 
+ .styled-article p {
+     font-size: 18px;
+     line-height: 1.6;
+ }
+ 
+ .styled-article ul {
+     list-style-type: none;
+     margin: 20px 0;
+     padding: 0;
+ }
+ 
+ .styled-article li {
+     font-size: 16px;
+     margin-bottom: 10px;
+ }
+ 
+ .learn-more-button {
+     background-color: #183d5c;
+     color: #fff;
+     border: none;
+     padding: 15px 30px;
+     font-size: 20px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .learn-more-button:hover {
+     background-color: #122b42;
+ }
+
+ /* Add this style to your home.css file to display bullet points */
+.styled-article ul li {
+     list-style: inside disc; /* Display bullet points inside the list item */
+ }
+ 

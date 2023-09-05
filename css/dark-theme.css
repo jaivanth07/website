@@ -1,0 +1,23 @@
+/* dark-theme styles */
+
+/* Dark theme specific styles */
+/* You can customize these styles further for your dark theme */
+
+body {
+     background-color: #222; /* Dark background color for the whole page */
+ }
+ 
+ /* Customize the dark theme styles for the navbar */
+ nav {
+     background-color: #333; /* Dark background color */
+     color: #fff; /* Text color */
+ }
+ 
+ nav a {
+     color: #fff;
+ }
+ 
+ nav a:hover {
+     text-decoration: underline;
+ }
+ 

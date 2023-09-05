@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /* Common styles for all pages */
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #040d12; /* Background color */
+     color: #b1a6a6; /* Text color */
+ }
+ 
+ nav {
+     background-color: #183d5c; /* Navbar background color */
+     color: #b1a6a6; /* Navbar text color */
+     padding: 15px;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ nav ul li {
+     display: inline;
+     margin-left: 20px;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: #b1a6a6;
+     font-weight: bold;
+ }
+ 
+ nav a:hover {
+     text-decoration: underline;
+ }
+ 
+ /* Centered box styles for all pages */
+ .centered-box {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: rgba(4, 13, 18, 0.7); /* Centered box background color */
+     padding: 30px;
+     box-shadow: 0px 0px 10px rgba(4, 13, 18, 0.3);
+     border: none;
+     color: #b1a6a6; /* Text color */
+     width: 60%;
+     height: 60%;
+     z-index: 999;
+     border-radius: 10px;
+ }
+
+ 
+ /* Add these styles to your styles.css file */
+nav {
+    background-color: #040d12; /* Dark background color */
+    padding: 20px 0; /* Add some padding for spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align the menu items */
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Text color */
+    font-size: 18px; /* Font size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #183d5c; /* Color change on hover */
+}
