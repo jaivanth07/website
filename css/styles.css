@@ -1,7 +1,7 @@
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
      margin: 1;
-     padding: ;
+     padding: 0;
  }
  
  /* Common styles for all pages */
@@ -60,7 +60,7 @@ body, h1, h2, h3, p, ul, li {
  
  /* Add these styles to your styles.css file */
 nav {
-    background-color: #040d12; /* Dark background color */
+    background-color: #333; /* Dark background color */
     padding: 20px 0; /* Add some padding for spacing */
 }
 
